@@ -6,7 +6,7 @@ import requests
 access = "your-access"
 secret = "your-secret"
 myToken = "xoxb-your-token"
-discord_url = "https://discord.com/api/webhooks/1236272079930920992/R-P5iEb9J6CHV5tRMmGlU-ISVSkSCWyTFOQzMFWf1iJhRnYcEGfrRxeWraZ1aQK7Ivzv"
+discord_url = "your-discord"
 
 def post_message(token, channel, text):
     """슬랙 메시지 전송"""

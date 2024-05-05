@@ -4,9 +4,9 @@ import datetime
 import requests
 import yaml
 
-access = "2bpxnn6gmgNH6Tw5jtNzlbQ5ykPgbh4OLSUeWs4e"
-secret = "2cMIRaeVw8L5xRI1Q4WZgUkh63dMNbrfu5GyOcVr"
-discord_url = "https://discord.com/api/webhooks/1236272079930920992/R-P5iEb9J6CHV5tRMmGlU-ISVSkSCWyTFOQzMFWf1iJhRnYcEGfrRxeWraZ1aQK7Ivzv"
+access = "your-access"
+secret = "your-secret"
+discord_url = "your-discord-url"
 
 def send_message(msg):
     now = datetime.datetime.now()
